@@ -1,0 +1,24 @@
+nav mat-toolbar
+{
+    display:flex;
+    justify-content:space-between;
+    gap: 15px;
+    font-size: 25px;
+    
+}
+
+mat-toolbar
+{
+    background-color:maroon;
+   
+}
+mat-toolbar a
+{
+    text-decoration:none;
+}
+
+mat-toolbar a div{
+    color:white;
+   
+
+}
