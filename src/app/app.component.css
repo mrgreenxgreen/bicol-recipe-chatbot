@@ -2,16 +2,17 @@ nav mat-toolbar
 {
     display:flex;
     justify-content:space-between;
+    align-items:center;
     gap: 15px;
-    font-size: 25px;
+    font-size: 15px;
+    background-color:maroon;
+
     
 }
 
-mat-toolbar
-{
-    background-color:maroon;
-   
-}
+
+
+
 mat-toolbar a
 {
     text-decoration:none;
@@ -19,6 +20,9 @@ mat-toolbar a
 
 mat-toolbar a div{
     color:white;
+    display:flex;
+    align-items:center;
+    gap:5px;
    
 
 }
