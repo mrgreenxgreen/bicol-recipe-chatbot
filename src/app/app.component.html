@@ -8,59 +8,62 @@
     <header>
       <nav>
         <mat-toolbar>
-          <a routerLink="/home-component" 
-          routerLinkActive="active"
-          ariaCurrentWhenActive="page">
-            <div>
-              <span class="material-symbols-outlined">
-              
-                add_home
-           
-            </span>
-              Home
-            </div>
-          </a>
-          <a routerLink="/about-component" 
-            routerLinkActive="active" 
+          <div class="nav-container">
+            <a routerLink="/home-component" 
+            routerLinkActive="active"
             ariaCurrentWhenActive="page">
               <div>
                 <span class="material-symbols-outlined">
-                  person_pin
-                  </span>
-                About
+                
+                  add_home
+            
+              </span>
+                Bicol Recipe Generator
               </div>
-          </a>
-          <a routerLink="/contacts-component"
-          >
+            </a>
+            <div class="nav-left">
+              <a routerLink="/about-component" 
+                routerLinkActive="active" 
+                ariaCurrentWhenActive="page">
+                  <div>
+                   
+                    Register
+                  </div>
+              </a>
+              <a routerLink="/contacts-component"
+              >
 
-            <div>
-              <span class="material-symbols-outlined">
-                contact_page
-                </span>
-              Contacts
-            </div>
+                <div>
+                  
+                  Sign in
+                </div>
 
-          </a>
+              </a>
+              <a routerLink="#">
+                <div>
+                  |
+                  <span class="material-symbols-outlined">
+                    person_pin
+                    </span>
+  
+                </div>
+              </a>
+             
+          </div>
+          </div>
         </mat-toolbar>  
       </nav>
     </header>
     <main>      <div class="bg-design"></div>
 
       <div class="container">
-      <h1>Title</h1>
+      <div class="title">
+        <h1>Bicol Recipe AI Chatbot</h1>
+        <img src="../assets/chili.png" height="300" width="300" />
+      </div>
       <router-outlet></router-outlet>
-      <h1>content</h1>
-      <h1>content</h1>
-      <h1>content</h1>
-      <h1>content</h1>
-      <h1>content</h1>
-      <h1>content</h1>
-      <h1>content</h1>
-      <h1>content</h1>
-      <h1>content</h1>
-      <h1>content</h1>
-      <h1>content</h1>
-      <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1>
+      
+      <!-- <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> <h1>content</h1> -->
       </div>
 
     </main>
