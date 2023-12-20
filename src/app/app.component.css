@@ -1,3 +1,15 @@
+body
+{
+    background-color:black;
+    width:100vw;
+    
+    position:absolute;
+}
+
+header{
+    margin-right:10px;
+}
+
 nav mat-toolbar
 {
     display:flex;
@@ -5,8 +17,13 @@ nav mat-toolbar
     align-items:center;
     gap: 15px;
     font-size: 15px;
-    background-color:maroon;
-
+    //background-color:maroon;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position:fixed;  
+    width:100vw;
+    z-index:999;
     
 }
 
@@ -19,10 +36,54 @@ mat-toolbar a
 }
 
 mat-toolbar a div{
-    color:white;
+    text-shadow:0px 1px 1px gray;
+    color:lightgray;
     display:flex;
     align-items:center;
     gap:5px;
    
+
+}
+
+main
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    width: 100vw;
+    /* background: rgba(0,0,0,0.5); */
+    position:relative;
+    background-image:radial-gradient(circle, #990066, black 70%);
+    background-attachment:fixed;
+    padding-top:10%;
+    z-index:0;
+    
+}
+
+.bg-design
+{
+    background-image:linear-gradient(120deg,black ,  #cc00ff , #eb009c ,black );
+    /* opacity:.6; */
+    height:100%;
+    width:100%;
+    /* border-radius:10% 10% 40% 60%; */
+;
+    top:0;
+    bottom:40px;
+    opacity:.2;
+    filter: blur(50px);
+    box-shadow: 10px 10px 100px 60px #eb009c;
+    -webkit-filter: blur(8px);
+    position:fixed;
+    z-index:-99;
+
+}
+
+.container
+{
+    background-image:radial-gradient(circle,#eb009c,white);
+
 
 }
