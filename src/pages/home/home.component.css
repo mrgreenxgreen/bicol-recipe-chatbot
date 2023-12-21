@@ -1,0 +1,14 @@
+.title
+{
+    text-align:center;
+    display:flex;
+    align-items:center;
+    /* border:1px solid green; */
+    
+}
+
+.title h1
+{
+    
+    font-size:100px;
+}
